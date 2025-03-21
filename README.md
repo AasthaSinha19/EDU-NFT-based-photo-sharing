@@ -31,5 +31,9 @@ We aim to **revolutionize the way digital content is shared and monetized** by i
 
 ![image](https://github.com/user-attachments/assets/11b7e8ac-d887-4d9d-b929-893ef2c9dcb2)
 
+Frontend Preview :
+
+![image](https://github.com/user-attachments/assets/04449bdd-773a-44bc-9339-f1cf5715e9a1)
+
 
 Start **minting, sharing, and trading your photo NFTs** today. Own your photos, monetize your art, and secure your legacy on the blockchain.  
