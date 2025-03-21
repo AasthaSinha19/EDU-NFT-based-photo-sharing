@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NFT Photo Sharing</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/web3@latest/dist/web3.min.js"></script>
+    <script defer src="app.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>📷 NFT Photo Sharing</h1>
+        
+        <div class="card">
+            <h2>Mint NFT</h2>
+            <input type="text" id="photoUrl" placeholder="Enter Photo URL">
+            <button onclick="mintPhoto()">Mint</button>
+        </div>
+
+        <div class="card">
+            <h2>Transfer NFT</h2>
+            <input type="number" id="tokenId" placeholder="Enter Token ID">
+            <input type="text" id="recipient" placeholder="Recipient Address">
+            <button onclick="transferPhoto()">Transfer</button>
+        </div>
+
+        <div class="card">
+            <h2>Get Photo Details</h2>
+            <input type="number" id="queryTokenId" placeholder="Enter Token ID">
+            <button onclick="getPhotoDetails()">Get Details</button>
+            <div id="photoDetails"></div>
+        </div>
+    </div>
+</body>
+</html>
